@@ -54,9 +54,11 @@ img {
   text-align: center;
   cursor: pointer;
 }
+
 .button:hover {
   opacity: 0.8;
 }
+
 .button:active {
   opacity: 0.6;
 }
@@ -65,9 +67,10 @@ img {
   display: block;
   width: 100%;
 }
+
 .button-primery {
   background-color: #7296ec;
-  color:#fff;
+  color: #fff;
 }
 
 .button-orange {
@@ -85,10 +88,12 @@ img {
   margin-bottom: 10px;
   background-color: #f6f6f6;
 }
+
 .site-header-top-container {
   display: flex;
   align-items: center;
 }
+
 .site-header-logo {
   display: flex;
   padding: 6px 8px;
@@ -96,9 +101,11 @@ img {
   border-radius: 7px;
   background-color: #fff;
 }
+
 .site-header-logo:hover {
   opacity: 0.8;
 }
+
 .site-header-logo:active {
   opacity: 0.6;
 }
@@ -113,9 +120,11 @@ img {
   margin-right: auto;
   list-style-type: none;
 }
+
 .currency-rates-item:not(:last-child) {
   margin-right: 25px;
 }
+
 .curreny-rates-type {
   color: #2959ce;
 }
@@ -124,6 +133,7 @@ img {
 .global-search-form {
   margin-right: 25px;
 }
+
 .global-search-form-input {
   padding-top: 15px;
   padding-bottom: 13px;
@@ -133,7 +143,13 @@ img {
   font-size: 14px;
   line-height: normal;
   border-radius: 60px;
+  background-image: url(../img/icon-search.svg);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 15px center;
 }
+
+
 
 /* LANG TOGGLE */
 .lang-toggle {
@@ -143,6 +159,7 @@ img {
   border-radius: 39px;
   background-color: #dce6ff;
 }
+
 .lang-toggle-link {
   width: 30px;
   height: 30px;
@@ -153,6 +170,7 @@ img {
   text-decoration: none;
   color: #a6a6a6;
 }
+
 .lang-toggle-link-active {
   background-color: #fff;
   color: #000;
@@ -160,15 +178,19 @@ img {
 
 
 /* SITENAV */
-.sitenav {
+.site {
   padding-top: 12px;
   padding-bottom: 12px;
   border-bottom: 1px solid #d1d1d1;
   font-size: 18px;
   line-height: normal;
   font-weight: 500;
+}
+
+.sitenav:not(:last-child) {
   margin-bottom: 40px;
 }
+
 .sitenav-list {
   display: flex;
   flex-wrap: wrap;
@@ -177,21 +199,26 @@ img {
   margin: 0;
   list-style: none;
 }
+
 .sitenav-item {
   margin-top: 4px;
   margin-bottom: 4px;
 }
+
 .sitenav-item:not(:last-child) {
   margin-right: 34px;
 }
+
 .sitenav-link {
   display: block;
   color: #7f7f7f;
   text-decoration: none;
 }
+
 .sitenav-link:hover {
   color: #7296ec;
 }
+
 .sitenav-link:active {
   opacity: 0.8;
 }
@@ -217,11 +244,13 @@ img {
   flex-wrap: wrap;
   margin-left: -10px;
 }
+
 .news-grid-item {
   width: 393px;
   margin-left: 10px;
   margin-bottom: 10px;
 }
+
 .article-card {
   display: flex;
   flex-direction: column;
@@ -229,6 +258,7 @@ img {
   border-radius: 15px;
   background-color: #f6f6f6;
 }
+
 .article-card-title {
   margin-top: 0;
   margin-bottom: 10px;
@@ -236,21 +266,26 @@ img {
   line-height: 26px;
   font-size: 20px;
 }
+
 .article-card-link {
   display: inline-block;
   color: #000;
   text-decoration: none;
 }
+
 .article-card-link:hover {
   color: #2959ce;
 }
+
 .article-card-link:active {
   opacity: 0.6;
 }
+
 .article-card-text {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
 .article-card-img {
   display: block;
   width: 360px;
@@ -260,16 +295,19 @@ img {
   margin-bottom: 15px;
   object-fit: cover;
 }
+
 .article-card-footer {
   display: flex;
   align-items: center;
 }
+
 .article-card-source-icon {
   width: 20px;
   height: 20px;
   margin-right: 10px;
   border-radius: 6px;
 }
+
 .article-card-source-time {
   font-size: 12px;
   line-height: normal;
@@ -286,7 +324,12 @@ img {
   margin: 60px 75px;
   border-radius: 10px;
   background-color: #ffd7ba;
+  background-image: url("../img/global-notifications-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
+
 .notification-cta-text {
   font-size: 20px;
   line-height: 26px;
@@ -325,6 +368,7 @@ img {
   margin-bottom: 10px;
   background-color: #f6f6f6;
 }
+
 .article-card-horizontal-img {
   width: 210px;
   height: 165px;
@@ -358,6 +402,7 @@ img {
 .article-card-horizantale-link:active {
   opacity: 0.6;
 }
+
 .article-card-horizontal-text {
   margin-top: 0;
   margin-bottom: 15px;
@@ -426,6 +471,7 @@ img {
   font-weight: 500;
   line-height: 24px;
 }
+
 .sidebar-news-card-list {
   padding: 0;
   margin: 0;
@@ -456,6 +502,7 @@ img {
   line-height: 24px;
   font-weight: 500;
 }
+
 .sidebar-news-card-link {
   color: #000;
   text-decoration: none;
@@ -488,14 +535,19 @@ img {
   border-radius: 15px;
 }
 
+.sidebar-ad-img-tall {
+  height: 553px;
+}
+
 
 /* SITE FOOTER */
 .site-footer {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #7297ef;
-  color:#fff;
+  color: #fff;
 }
+
 .site-footer *:focus {
   outline: 2px dashed #fff;
 }
@@ -504,6 +556,7 @@ img {
   display: flex;
   margin-bottom: 15px;
 }
+
 .site-footer-logo {
   display: flex;
 }
@@ -511,6 +564,7 @@ img {
 .site-footer-logo:hover {
   opacity: 0.8;
 }
+
 .site-footer-logo:active {
   opacity: 0.6;
 }
@@ -604,4 +658,119 @@ img {
   width: 25px;
   height: 25px;
   object-fit: contain;
+}
+
+
+
+/* FORM */
+
+.form-groups-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-groups-wrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+.form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-groups-wrapper .form-group {
+  width: calc(50% - 5px);
+
+  margin-bottom: 0;
+}
+
+.form-field {
+  display: block;
+  width: 100%;
+  padding: 18px 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.form-field-textarea {
+  min-height: 180px;
+  resize: vertical;
+}
+
+
+/* DEFENITIONS-CARD */
+
+.defenitions-card {
+  padding: 20px 25px;
+  margin: 0;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  color: #000;
+}
+
+.defenitions-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.defenitions-card-item:not(:last-child) {
+  border-bottom: 1px solid #d2d2d2
+}
+
+.defenition-card-title {
+  margin-bottom: 7px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.defenition-card-title-value {
+  margin: 0;
+  line-height: 19px;
+}
+
+
+
+
+/* CONTACT PAGE */
+.contact-page-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+  color: #000;
+}
+
+.contact-page-content {
+  display: flex;
+}
+
+.contact-page-form {
+  display: flex;
+  flex-direction: column;
+  width: 696px;
+}
+
+.contact-page-form-submit {
+  align-self: flex-end;
+  margin-top: 20px;
+}
+
+.contact-page-info {
+  width: 494px;
+  margin-left: 10px;
+}
+
+
+
+/* RETINA BGS */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  .notification-cta {
+    background-image: url("../img/global-notifications-bg@2x.jpg")
+  }
 }
